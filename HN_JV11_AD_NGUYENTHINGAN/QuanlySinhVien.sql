@@ -2,7 +2,7 @@ create database test2;
 use test2;
 create table students(
 studentId int auto_increment primary key,
-studentName varchar (30),
+studentName varchar (50),
 age int,
 email varchar (100)
 );
